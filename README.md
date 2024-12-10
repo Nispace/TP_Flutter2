@@ -93,3 +93,13 @@ Créer un fichier `server.js` avec :
 Dans `main.dart` :
 - Affichage une liste des utilisateurs depuis l'API.
 - Ajout du formulaire pour soumettre un utilisateur.
+
+#### d. Résultat interface :
+- Liste des utilisateurs :
+- ![image](https://github.com/user-attachments/assets/16010a6c-5e3c-4c9f-836d-9ffacefbc813)
+
+
+- Formulaire d'ajout : 
+- ![image](https://github.com/user-attachments/assets/1ebff0fa-14b2-4814-b5a2-e52dd38c5b83)
+
+
