@@ -105,7 +105,7 @@ Dans `main.dart` :
 - ![image](https://github.com/user-attachments/assets/1ebff0fa-14b2-4814-b5a2-e52dd38c5b83)
 
 ---
-### **2. Schéma architecture**
+### **3. Schéma architecture**
 
 ```bash
 +--------------------+         Requête HTTP        +------------------+         Requête SQL          +--------------------+
