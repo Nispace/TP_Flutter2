@@ -87,14 +87,16 @@ Créer un fichier `server.js` avec :
 
 
 
-
-
 #### c. Construire l'interface utilisateur :
 Dans `main.dart` :
 - Affichage une liste des utilisateurs depuis l'API.
 - Ajout du formulaire pour soumettre un utilisateur.
 
 #### d. Résultat interface :
+- une fois toutes les étapes précédentes terminées , lancer le projet flutter :
+- ![image](https://github.com/user-attachments/assets/73cc7bf2-2388-4005-929a-171d17a67bcd)
+  
+
 - Liste des utilisateurs :
 - ![image](https://github.com/user-attachments/assets/16010a6c-5e3c-4c9f-836d-9ffacefbc813)
 
