@@ -105,3 +105,16 @@ Dans `main.dart` :
 - ![image](https://github.com/user-attachments/assets/1ebff0fa-14b2-4814-b5a2-e52dd38c5b83)
 
 
+-Schéma architecture : 
+```bash
++--------------------+         HTTP Requests         +------------------+         SQL Queries         +--------------------+
+|  Flutter Frontend  | <--------------------------> |  Node.js Backend | <-------------------------> |    MySQL Database  |
++--------------------+                              +------------------+                             +--------------------+
+| - User Interface   |                              | - server.js       |                             | - Table: users     |
+| - HTTP (http.dart) |                              | - REST API:       |                             |   * id INT         |
+| - JSON Parsing     |                              |   * GET           |                             |   * nom VARCHAR    |
+| - Form Inputs      |                              |   * POST          |                             |   * email VARCHAR  |
++--------------------+                              +------------------+                             +--------------------+
+
+```
+
