@@ -22,6 +22,13 @@ Créer un fichier `server.js` avec :
 - Deux endpoints : 
   - `/api/utilisateurs` pour récupérer les utilisateurs.
   - `/api/utilisateurs` (POST) pour ajouter un utilisateur.
+  - ![image](https://github.com/user-attachments/assets/ac8e8f12-c879-4978-ba0b-9a52c21cb72b)
+
+  - Choix du port 3004 :
+  - ![image](https://github.com/user-attachments/assets/260302bc-8e41-48ad-a2f1-db77eb39676c)
+
+  
+
 
 #### c. Configuration de MySQL :
 - Créer une base `gestion_utilisateurs` et une table `users` :
