@@ -59,10 +59,10 @@ Créer un fichier `server.js` avec :
   flutter create gestion_utilisateurs
   cd gestion_utilisateurs
   ```
-  ![image](https://github.com/user-attachments/assets/058b35eb-8cf9-4e6f-9bd7-9170066317b4)
+  - ![image](https://github.com/user-attachments/assets/058b35eb-8cf9-4e6f-9bd7-9170066317b4)
 
 - Ajouter `http: ^1.2.2` à `pubspec.yaml` et exécuter :
-  ![image](https://github.com/user-attachments/assets/2abd6e16-c07d-45ba-8273-19acec8cc832)
+-  ![image](https://github.com/user-attachments/assets/2abd6e16-c07d-45ba-8273-19acec8cc832)
 
   ```bash
   flutter pub get
