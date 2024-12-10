@@ -107,7 +107,7 @@ Dans `main.dart` :
 
 -Schéma architecture : 
 ```bash
-+--------------------+         HTTP Requests         +------------------+         SQL Queries         +--------------------+
++--------------------+         Requête HTTP        +------------------+         Requête SQL          +--------------------+
 |  Flutter Frontend  | <--------------------------> |  Node.js Backend | <-------------------------> |    MySQL Database  |
 +--------------------+                              +------------------+                             +--------------------+
 | - User Interface   |                              | - server.js       |                             | - Table: users     |
