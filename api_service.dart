@@ -6,7 +6,7 @@ class ApiService {
   final String baseUrl = 'http://172.16.191.254:3004/api/utilisateurs';
 
   Future<List<dynamic>> fetchUtilisateurs() async {
-    final response = await http.get(Uri.parse(baseUrl)); // Utilisez seulement baseUrl ici
+    final response = await http.get(Uri.parse(baseUrl)); 
     if (response.statusCode == 200) {
       return json.decode(response.body);
     } else {
@@ -16,7 +16,7 @@ class ApiService {
 
   Future<void> addUtilisateur(String nom, String email) async {
     final response = await http.post(
-      Uri.parse(baseUrl), // Utilisez seulement baseUrl ici aussi
+      Uri.parse(baseUrl), 
       headers: {'Content-Type': 'application/json'},
       body: json.encode({'nom': nom, 'email': email}),
     );
