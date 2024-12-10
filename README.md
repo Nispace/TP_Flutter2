@@ -105,7 +105,7 @@ Dans `main.dart` :
 - ![image](https://github.com/user-attachments/assets/1ebff0fa-14b2-4814-b5a2-e52dd38c5b83)
 
 
-### **3. Préparer le Backend (VM SERV_SLAM)**
+### **3. Schéma architecture **
 ```bash
 +--------------------+         Requête HTTP        +------------------+         Requête SQL          +--------------------+
 |  Flutter Frontend  | <--------------------------> |  Node.js Backend | <-------------------------> |    MySQL Database  |
