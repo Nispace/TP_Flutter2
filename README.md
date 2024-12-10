@@ -59,17 +59,30 @@ Créer un fichier `server.js` avec :
   flutter create gestion_utilisateurs
   cd gestion_utilisateurs
   ```
+  ![image](https://github.com/user-attachments/assets/058b35eb-8cf9-4e6f-9bd7-9170066317b4)
+
 - Ajouter `http: ^1.2.2` à `pubspec.yaml` et exécuter :
+  ![image](https://github.com/user-attachments/assets/2abd6e16-c07d-45ba-8273-19acec8cc832)
+
   ```bash
   flutter pub get
   ```
 
 #### b. Configurer les services API :
+- Voici le base url que nous utiliserons pour les deux options :
+- ![image](https://github.com/user-attachments/assets/825f83b8-a823-48e5-be44-a1b7ea7ebc46)
 Créer un fichier `api_service.dart` pour :
 - **`fetchUtilisateurs()`** : récupérer les utilisateurs depuis l'API.
+- ![image](https://github.com/user-attachments/assets/c93041ac-caf6-4e63-bdb0-6ff7569973f9)
+
 - **`addUtilisateur()`** : envoyer un utilisateur (nom et email) à l'API.
+- ![image](https://github.com/user-attachments/assets/b0c667b3-eaee-4458-8863-082bb6b17290)
+
+
+
+
 
 #### c. Construire l'interface utilisateur :
 Dans `main.dart` :
-- Afficher une liste des utilisateurs depuis l'API.
-- Ajouter un formulaire pour soumettre un utilisateur.
+- Affichage une liste des utilisateurs depuis l'API.
+- Ajout du formulaire pour soumettre un utilisateur.
