@@ -1,3 +1,5 @@
+Les fichiers présents dans ce projet sont tous les fichiers qui ont été créés ou modifiés.
+
 Ce TP a pour objectif d'intégrer une application Flutter avec une base de données MySQL via une API backend. Voici un récapitulatif des étapes principales :
 
 ---
