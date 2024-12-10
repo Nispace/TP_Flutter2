@@ -27,6 +27,10 @@ Créer un fichier `server.js` avec :
   - Choix du port 3004 :
   - ![image](https://github.com/user-attachments/assets/260302bc-8e41-48ad-a2f1-db77eb39676c)
 
+  - Conexion a la BDD (Remplacer le password par celui de l'utilisateur root ) :
+  - ![image](https://github.com/user-attachments/assets/f4c844a2-b58c-412c-98e0-8e1a23c8867d)
+
+
   
 
 
